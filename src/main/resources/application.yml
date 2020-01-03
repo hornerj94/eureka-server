@@ -7,6 +7,7 @@ server:
 
 eureka:
   client:  
+    responseCacheUpdateInvervalMs: 5
     registerWithEureka: false
     fetchRegistry: false
     # We don't need it since the eureka server is obviously not a client.
